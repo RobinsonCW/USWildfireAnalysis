@@ -1,7 +1,7 @@
 # USWildfireAnalysis
 Wildfires that occurred in the United States from 1992 to 2015
 
-Created by [Chance Robinson](https://github.com/RobinsonCW), [Jeff Washburn](https://github.com/jwashbur65) and [Sreeni Prabhala]
+Created by [Chance Robinson](https://github.com/RobinsonCW), [Jeff Washburn](https://github.com/jwashbur65) and [Sreeni Prabhala](https://github.com/sreenip06)
 
 ## Purpose
 Given the size, location and date, can you predict the cause of a wildfire?

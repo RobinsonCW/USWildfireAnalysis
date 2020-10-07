@@ -9,7 +9,7 @@ Given the size, location and date, can you predict the cause of a wildfire?
 
 ## Analysis Files
 
-* [US Wildfire Analysis](https://github.com/RobinsonCW/USWildfireAnalysis/blob/master/src/exploratory_data_analysis/chance/python/Exploratory_Data_Analysis.ipynb): A paper covering the analysis.
+* [US Wildfire Analysis](https://github.com/RobinsonCW/USWildfireAnalysis/blob/master/src/objectives/python/USWildfireAnalysis.ipynb): A paper covering the analysis.
 
 
 ## Codebook

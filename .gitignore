@@ -9,3 +9,6 @@
 
 #SQLite
 data/*.sqlite
+
+# EDA Data files
+**/training/data/*

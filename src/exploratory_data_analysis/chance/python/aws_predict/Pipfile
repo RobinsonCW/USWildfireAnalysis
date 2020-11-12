@@ -10,4 +10,7 @@ pandas = "*"
 [packages]
 sklearn = "*"
 joblib = "*"
-scipy = "*"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.6"

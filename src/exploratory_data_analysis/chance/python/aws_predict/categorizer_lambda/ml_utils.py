@@ -6,14 +6,13 @@ import boto3
 import numpy as np
 import joblib
 
-MyModel = namedtuple("MyModel", ["vectorizer", "classifier"])
+MyModel = namedtuple("MyModel", ["pipeline", "classifier"])
 
 
 def get_model(bucket: str, object_keys: Tuple[str, str]) -> MyModel:
     s3 = boto3.resource("s3").Bucket(bucket)
-    # # with BytesIO() as vec:
-    # #     s3.download_fileobj(Key=object_keys[0], Fileobj=vec)
-    # #     vectorizer = joblib.load(vec)
+
+    pipeline = "not in use"
 
     with BytesIO() as clas:
         s3.download_fileobj(Key=object_keys[1], Fileobj=clas)
@@ -23,7 +22,7 @@ def get_model(bucket: str, object_keys: Tuple[str, str]) -> MyModel:
     #     "/Users/robinsoncw/github/smu/USWildfireAnalysis/src/exploratory_data_analysis/chance/python/aws_predict/training/models/decission_tree_classifier.pkl"
     # )
 
-    return MyModel(classifier, classifier)
+    return MyModel(pipeline, classifier)
 
 
 def predict_from_event(event, model: MyModel) -> list:

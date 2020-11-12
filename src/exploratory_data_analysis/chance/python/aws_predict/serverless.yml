@@ -30,7 +30,7 @@ custom:
   pythonRequirements:
     dockerizePip: true # set to false if `serverless deploy` is run inside a docker container
     fileName: Pipfile
-    slim: true
+    slim: false
 
 functions:
   categorizer_lambda:
@@ -44,5 +44,5 @@ functions:
           method: POST
     environment:
       MODEL_BUCKET: ${self:provider.deploymentBucket}
-      MODEL_VECTORIZER_PATH: pydatabln2018/decission_tree_classifier.pkl
+      MODEL_PIPELINE_PATH: pydatabln2018/decission_tree_classifier.pkl
       MODEL_CLASSIFIER_PATH: pydatabln2018/decission_tree_classifier.pkl

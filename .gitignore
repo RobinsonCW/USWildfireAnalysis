@@ -12,3 +12,12 @@ data/*.sqlite
 
 # EDA Data files
 **/training/data/*
+
+# Serverless
+.serverless
+
+# Node JS
+node_modules
+
+# Python Cache
+__pycache__

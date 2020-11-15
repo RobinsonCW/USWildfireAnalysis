@@ -1,0 +1,9 @@
+{
+  "name": "aws_predict",
+  "version": "1.0.0",
+  "description": "AWS Lambda predictions for US Wildfire data",
+  "author": "Chance Robinson",
+  "dependencies": {
+    "serverless-python-requirements": "^5.1.0"
+  }
+}

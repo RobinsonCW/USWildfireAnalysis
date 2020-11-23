@@ -21,3 +21,8 @@ node_modules
 
 # Python Cache
 __pycache__
+
+# Sphynx
+build
+make.bat
+Makefile
